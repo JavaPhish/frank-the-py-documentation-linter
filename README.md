@@ -2,6 +2,10 @@
 <h3>A documentation checker to help Holberton students along with PEP8</h3>
 -   -   -
 <h4>Usage:</h4> 
+	First install the tool
+
+	./install.sh
+	(It is a fairly primitive install file but it should work for students since we all use a similar linux setup)
 
 	frank <filename.py>
 	Ex. frank main.py
