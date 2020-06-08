@@ -41,7 +41,7 @@ for i in range(0, len(codetxt)):
             print(" ISSUE: Expecting \"#!/usr/bin/python3\" as first line. LINE 0")
             conflicts_found += 1
 
-    """ File comment thing """
+    """ File header comment thing """
     if (i == 1):
         if ("\"\"\"" not in codetxt[1]):
             print(" ISSUE: Expecting file head comment (after shebang). LINE: {}".format(i + 1))
@@ -57,7 +57,7 @@ for i in range(0, len(codetxt)):
             conflicts_found += 1
 
     """ Class declaration comment """
-    if ("class" in codetxt[i]):
+    if ("class " in codetxt[i] and "__class__" not in codetxt[i] and "\"" not in codetxt[i]):
         if (i == len(codetxt) - 1):
             print(" ISSUE: Expecting comment after class declaration. LINE: {}".format(i + 2))
             conflicts_found += 1
