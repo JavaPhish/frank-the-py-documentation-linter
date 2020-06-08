@@ -8,10 +8,10 @@
 
 <h4>Warnings:</h4> 
 	
-	<li>Frank does not work with wildcards because i havent figured that out yet in python.</li>
-	<li>He still has a few false flags, trust but verify his output.</li>
-	<li>Frank is not a replacement for PEP8, but rather something to be used along side of PEP8
-	because PEP8 Does not check for documentation that is mandatory for Holberton students. </li>
+<li>Frank does not work with wildcards because i havent figured that out yet in python.</li>
+<li>He still has a few false flags, trust but verify his output.</li>
+<li>Frank is not a replacement for PEP8, but rather something to be used along side of PEP8
+because PEP8 Does not check for documentation that is mandatory for Holberton students. </li>
 
 <h4>Example usages/output cases:</h4> 
 
