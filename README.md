@@ -1,5 +1,5 @@
 <h1>Frank</h1>
-<h3>A documentation checker to help Holberton students along with PEP8</h3>
+<h3>Python documentation verification for Holberton Students</h3>
 -   -   -
 <h4>Usage:</h4> 
 First install the tool
@@ -11,7 +11,7 @@ Then simply run the command anywhere in your system by using:
 
 	frank <filename.py>
 	Ex. frank main.py
-	
+
 <h4>Warnings:</h4> 
 	
 <li>Frank does not work with wildcards because i havent figured that out yet in python.</li>
