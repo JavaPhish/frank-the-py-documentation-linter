@@ -32,7 +32,7 @@ Example usages/output cases:
 -----------------------------
 
 All of Franks expectations (Do not disapoint him.)
--Expects """ (comment) on the line after a function definition
--Expects """ (comment) on the line after a class declaration
--Expects """ (comment) on the 2nd line of every python file (Right after the python shebang)
--Expects #!/usr/bin/python3 on the first line of every python file (Python shebang)
+<li>-Expects """ (comment) on the line after a function definition</li>
+<li>-Expects """ (comment) on the line after a class declaration</li>
+<li>-Expects """ (comment) on the 2nd line of every python file (Right after the python shebang)</li>
+<li>-Expects #!/usr/bin/python3 on the first line of every python file (Python shebang)</li>
